@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+<center><table><tr><td><center><div class="pudelko"><div class="nazwapud" style="color:900c2d; text-align: right; text-decoration: dotted;">calculator</div>
+    <center><div style="line-height: 11px; overflow:auto; width: 390px; height: 500px; font-family: arial; font-size: 11px; color: #5d5d5d;"> <form>    
+ </form>
+    <div class="display">   </div>
+    <p id="output" style="font-family: arial; font-size: 20px;">0</p>
+    </br>
+    </br>
+    <button class="button" id="plus" onclick="fordisplay('+') ">+</button>
+    <button class="button" id="minus" onclick="fordisplay('-') ">-</button> 
+    <button id="one" class="button" onclick="fordisplay('1') ">1</button>
+    <button id="two" class="button" onclick="fordisplay('2') ">2</button>  
+    <button id="three" class="button" onclick="fordisplay('3') ">3</button> 
+    </br>
+    </br>
+    <button id="multiply" class="button" onclick="fordisplay('*') ">x</button>
+    <button id="divide" class="button" onclick="fordisplay('/') ">/</button>
+    <button id="four" class="button" onclick="fordisplay('4') ">4</button> 
+    <button id="five" class="button" onclick="fordisplay('5') ">5</button>
+    <button id="six" class="button" onclick="fordisplay('6') ">6</button> 
+    </br>
+    </br>
+    <button id="sum" class="button" onclick="solve()">=</button>
+    <button id="zero" class="button" onclick="fordisplay('0') ">0</button>
+    <button id="seven" class="button" onclick="fordisplay('7') ">7</button>
+    <button id="eight" class="button" onclick="fordisplay('8') ">8</button>
+    <button id="nine" class="button" onclick="fordisplay('9') ">9</button>
+    </br>
+    </br>
+    <button id="clear" class="clear" onclick = "clear()">C</button>
+    </div></center></div></center></td> 
+
+    </script>
+</body>
+</html>

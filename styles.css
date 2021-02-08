@@ -1,0 +1,55 @@
+.pudelko {background-color: #aecfaf; width: 450px; height: 550px; font-family: arial; font-size: 11px; color: #5d5d5d; border: 1px solid #5d855e;border-radius: 10px 10px;box-shadow: inset 0 0 20px 10px #aecfaf,0 0 2px 1px #aecfaf;opacity: 0.7; }
+.nazwapud{background-color: transparent; width: 210px; height: 20px; text-align: center; font-family: brannboll fet; font-size: 50px; margin-top:10px; }
+
+.display {
+  width: 30%;
+  padding: 20px 40px;
+  margin: 8px 0;
+  background-color: transparent;
+  border-bottom:  2px solid #6fb671;
+}
+
+.button {
+  display: inline-block;
+  padding: 30px 30px;
+  margin: 3px 2px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6fb671;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #415341}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.clear {
+  display: inline-block;
+  padding: 20px 150px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6fb671;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #999;
+}
+
+.clear:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
